@@ -1,0 +1,44 @@
+nav{
+    display: flex  ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav  li{
+    cursor: pointer;
+}   
+nav li:hover{
+    text-decoration: underline;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+nav .nav-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+nav .nav-buttons button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+nav .nav-buttons .button-no-bg{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
