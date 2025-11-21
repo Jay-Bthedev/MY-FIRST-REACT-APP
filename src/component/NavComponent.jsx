@@ -14,11 +14,10 @@ function  NavComponent(props) {
             <h1>{props.username}</h1>
 
             <ul>
-                <li><a href="*">Home</a></li>
-                <li><a href="*">About</a></li>
-                <li><a href="*">Shop</a></li>
-                <li><a href="*">Blog</a></li>
-                <li><a href="*">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about-us">About</a></li>
+               
+                <li><a href="/contact-us">Contact</a></li>
                 
             </ul>
 

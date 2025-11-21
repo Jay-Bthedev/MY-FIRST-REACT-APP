@@ -1,8 +1,8 @@
-import React from 'react'
 import "./AboutUsPage.css"
 import NavComponent from '../component/NavComponent'
 
 const AboutUsPage = () => {
+    
     return (
 
         //react fragment
@@ -14,7 +14,7 @@ const AboutUsPage = () => {
         // </>
 
         <div className='about-us-page'>
-            <NavComponent username ="Olarotimi"/>
+            <NavComponent username ="Jesujoba"/>
             <div>About Us Page</div>
 
             <p>
